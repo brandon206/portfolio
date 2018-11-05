@@ -1,0 +1,383 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+.slider-height {
+	min-height: 750px;
+}
+.page-title-area {
+	padding-top: 260px;
+	padding-bottom: 170px;
+}
+
+
+
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.slider-height {
+	min-height: 600px;
+}
+.silder-content h1 {
+	padding: 0 50px;
+}
+.testimonial-active button.slick-arrow {
+	left: -20px;
+}
+.testimonial-active button.slick-next {
+	left: auto;
+	right: -20px;
+}
+.sidebar-blog {
+	padding-left: 15px;
+}
+.widget-social a {
+	margin-right: 3px;
+}
+.page-title-area {
+	padding-top: 240px;
+	padding-bottom: 150px;
+}
+.about-me-info {
+	margin-top: 0;
+	padding-left: 0;
+}
+
+
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #fff;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+.header-text-black .navbar-toggler {
+	border: 2px solid #222;
+}
+.header-text-black .navbar-icon {
+	background: #222;
+}
+.header-text-black .main-menu ul.navbar-nav li a.nav-link::before {
+	background: #fff;
+}
+.header-text-black .main-menu ul.navbar-nav li a.nav-link {
+	color: #fff;
+}
+.navbar-icon {
+	background: #fff;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+}
+.main-menu ul.navbar-nav {
+	margin-top: 20px;
+	background: #222;
+}
+.sticky {
+	padding: 8px 0;
+}
+.sticky .main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+	color: #fff;
+}
+.main-menu ul.navbar-nav li a.nav-link::before {
+	top: 22px;
+}
+.sticky .main-menu ul.navbar-nav li a.nav-link::before {
+	top: 22px;
+	background: #fff;
+}
+
+
+/* slider */
+.slider-height {
+	min-height: 500px;
+}
+.silder-content {
+	padding-top: 0px;
+}
+.testimonial-active button.slick-arrow {
+	left: -20px;
+}
+.testimonial-active button.slick-next {
+	right: -20px;
+	left: auto;
+}
+.page-title-area {
+	padding-top: 210px;
+	padding-bottom: 128px;
+}
+.left-sidebar {
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.post-comments-form {
+	margin-bottom: 50px;
+}
+.service-icon {
+	float: none;
+}
+.service-box {
+	text-align: center;
+}
+.service-content {
+	padding-left: 0;
+	margin-top: 25px;
+}
+.widget-social a {
+	margin-right: 5px;
+	margin-bottom: 8px;
+}
+.team-table::before {
+	top: 20px;
+	left: 20px;
+	bottom: 20px;
+	right: 20px;
+}
+.inner-team {
+	padding: 20px;
+}
+.team-content {
+	padding: 15px;
+}
+.about-me-info {
+	padding-left: 0;
+}
+
+
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.navbar-toggler {
+	padding: 8px;
+	border-radius: 2px;
+	border: 2px solid #fff;
+	width: 45px;
+	height: inherit;
+	position: relative;
+	padding-bottom: 10px;
+}
+.header-text-black .navbar-toggler {
+	border: 2px solid #222;
+}
+.header-text-black .navbar-icon {
+	background: #222;
+}
+.header-text-black .main-menu ul.navbar-nav li a.nav-link::before {
+	background: #fff;
+}
+.header-text-black .main-menu ul.navbar-nav li a.nav-link {
+	color: #fff;
+}
+.navbar-icon {
+	background: #fff;
+	height: 3px;
+	width: 20px;
+	margin: auto;
+	margin: 0 4px;
+	display: block;
+	margin: auto;
+	margin-top: 3px;
+}
+.main-menu ul.navbar-nav {
+	margin-top: 20px;
+	background: #222;
+}
+.sticky .main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+	color: #fff;
+}
+.sticky .main-menu ul.navbar-nav li a.nav-link::before {
+	top: 22px;
+	background: #fff;
+}
+.main-menu ul.navbar-nav li a.nav-link {
+	padding: 15px 0;
+}
+.main-menu ul.navbar-nav li a.nav-link::before {
+	top: 22px;
+}
+/* slider */
+.slider-height {
+	min-height: 490px;
+}
+.silder-content h1 {
+	font-size: 36px;
+	padding-right: 0px;
+	margin-bottom: 15px;
+}
+.silder-content a {
+	margin-bottom: 10px;
+}
+.intro-text h2 {
+	font-size: 28px;
+}
+.inner-tesimonial {
+	padding: 50px 15px;
+}
+.testimonial-item {
+	padding: 50px 8px;
+}
+.inner-tesimonial::after {
+	right: 20px;
+}
+.page-title h1 {
+	font-size: 30px;
+}
+.page-title-area {
+	padding-top: 200px;
+	padding-bottom: 120px;
+}
+.widget-social a {
+	margin-bottom: 10px;
+}
+.sidebar-blog {
+	padding-left: 15px;
+	margin-top: 30px;
+}
+.left-sidebar {
+	padding-left: 15px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+.blog-post-tag > a {
+	margin-bottom: 5px;
+}
+.comments-reply {
+	padding-left: 0;
+}
+.avatar-name > span {
+	display: block;
+}
+.avatar-name > h5 {
+	float: none;
+}
+.post-comments-form {
+	padding-right: 0;
+}
+.post-comments-form {
+	margin-bottom: 50px;
+}
+.sticky {
+	padding: 8px 0;
+}
+.service-icon {
+	float: none;
+}
+.service-box {
+	text-align: center;
+}
+.service-content {
+	padding-left: 0;
+	margin-top: 25px;
+}
+.portfolio-menu > button {
+	margin: 0 5px;
+	padding: 0px 1px;
+	margin-bottom: 5px;
+}
+.modal-dialog {
+	max-width: 100%;
+	padding: 0 25px;
+}
+.hire-us h2 {
+	font-size: 31px;
+}
+.blog-content {
+	padding: 35px 25px;
+}
+.meta-info {
+	padding: 20px 25px;
+}
+.pagination ul > li {
+	margin-bottom: 6px;
+}
+.blog-more-info {
+	padding: 0 25px;
+}
+.next-post {
+	float: none;
+}
+.next-prev-post a {
+	margin-bottom: 10px;
+	margin-right: 10px;
+	float: none;
+}
+.comment-reply {
+	margin-left: 0;
+}
+.testimonial-nav {
+	width: 290px;
+}
+.slider-text h1 {
+	letter-spacing: 5px;
+}
+.header-area.pl-50.pr-50 {
+	padding: 0;
+}
+.author-avatar {
+	float: none;
+}
+.author-avatar > img {
+	width: 80px;
+}
+.author-box {
+	padding: 20px;
+	text-align: center;
+}
+.authorinfo {
+	margin-left: 0;
+}
+.author-icons {
+	margin-top: 10px;
+}
+.comment-content {
+	margin: 0 0 35px 73px;
+	padding: 12px;
+}
+.comment-tools {
+	padding: 0 12px;
+	top: 15px;
+}
+.blob-post-gallery ul li {
+	width: 100%;
+	margin: 5px 0;
+}
+.about-me-info {
+	padding-left: 0;
+}
+
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 560px) and (max-width: 767px) {
+.next-post {
+	float: right;
+}
+.next-prev-post a {
+	margin-bottom: 0px;
+}
+.comment-content {
+	margin: 0px 0 35px 85px;
+}
+
+}
