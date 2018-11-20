@@ -16,13 +16,13 @@
 
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1800px) {
 .slider-height {
-	min-height: 600px;
+	min-height: 900px;
 }
-.silder-content h1 {
+/* .silder-content h1 {
 	padding: 0 50px;
-}
+} */
 .testimonial-active button.slick-arrow {
 	left: -20px;
 }
