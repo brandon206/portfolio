@@ -12,11 +12,11 @@
 	
 	
 	
-	}
-	
-	
-	/* Normal desktop :992px. */
-	@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
 	.slider-height {
 		min-height: 600px;
 	}
@@ -46,11 +46,11 @@
 	}
 	
 	
-	}
-	
-	
-	/* Tablet desktop :768px. */
-	@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
 	.navbar-toggler {
 		padding: 8px;
 		border-radius: 2px;
@@ -162,11 +162,11 @@
 	}
 	
 	
-	}
+}
 	
 	
-	/* small mobile :320px. */
-	@media (max-width: 767px) {
+/* small mobile :320px. */
+@media (max-width: 767px) {
 	.navbar-toggler {
 		padding: 8px;
 		border-radius: 2px;
@@ -366,10 +366,10 @@
 		padding-left: 0;
 	}
 	
-	}
+}
 	
-	/* Large Mobile :480px. */
-	@media only screen and (min-width: 560px) and (max-width: 767px) {
+/* Large Mobile :480px. */
+@media only screen and (min-width: 560px) and (max-width: 767px) {
 	.next-post {
 		float: right;
 	}
@@ -380,5 +380,5 @@
 		margin: 0px 0 35px 85px;
 	}
 	
-	}
+}
 	
