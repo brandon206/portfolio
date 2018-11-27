@@ -266,14 +266,6 @@ $.scrollUp({
 // WOW active
 new WOW().init();
 
-// /*  youtube video */
-// $('.youtube-bg').YTPlayer({
-// 	containment: '.youtube-bg',
-// 	autoPlay: true,
-// 	loop: true,
-// 	mute: true
-// });
-
 // map
 function basicmap() {
 	// Basic options for a simple Google Map
