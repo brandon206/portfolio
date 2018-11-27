@@ -1,0 +1,11 @@
+.skills-container {
+	display: flex;
+	justify-content: center;
+}
+.skills-icon {
+	height: 100px;
+	width: 100px;
+}
+.skill-icon-area > h5 {
+	text-align: center;
+}
