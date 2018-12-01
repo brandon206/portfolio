@@ -627,6 +627,12 @@ label {
 	height: 100px;
 	width: 100px;
 }
+
+.devicon-skills{
+	height:100px;
+	width:100px;
+}
+
 .skill-icon-area > h5 {
 	text-align: center;
 }
@@ -820,8 +826,10 @@ label {
 .portfolio-wrapper:hover .portfolio-thumb > img{transform: scale(1.2)}
 .portfolio-content {
     left: 0;
-    padding: 30px;
-    position: absolute;
+	padding: 30px;
+	height: 100%;
+	position: absolute;
+	display: flex;
     right: 0;
     text-align: center;
     top: 50%;
@@ -837,11 +845,15 @@ label {
 }
 .portfolio-content > h3 {
 	color: #fff;
-	font-size: 20px;
-	font-weight: 600;
-	margin-bottom: 12px;
+    font-size: 20px;
+    justify-content: center;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 12px;
 }
-.portfolio-content > h3 a:hover{color: #E41919}
+.portfolio-content > a:hover{color: #E41919}
 .portfolio-content span {
 	color: #ddd;
 	font-size: 14px;

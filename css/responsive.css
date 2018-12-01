@@ -1,5 +1,5 @@
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 1200px) {
 	.slider-height {
 		min-height: 750px;
 	}
@@ -16,9 +16,9 @@
 
 
 /* Normal desktop :992px. */
-@media (min-width: 992px) and (max-width: 1200px) {
+@media (min-width: 992px) and (max-width: 2500px) {
 	.slider-height {
-		min-height: 600px;
+		min-height: 750px;
 	}
 	/* .silder-content h1 {
 		padding: 0 50px;
