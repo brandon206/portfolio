@@ -828,6 +828,7 @@ label {
 	height: 100%;
 	position: absolute;
 	display: flex;
+	align-items: center;
     right: 0;
     text-align: center;
     top: 50%;
@@ -850,8 +851,9 @@ label {
     align-items: center;
     margin: 0 auto;
     margin-bottom: 12px;
+    height: 2em;
 }
-.portfolio-content > a:hover{color: #E41919}
+.portfolio-content > h3:hover{color: #E41919}
 .portfolio-content span {
 	color: #ddd;
 	font-size: 14px;
