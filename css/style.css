@@ -518,12 +518,6 @@ label {
 .about-me img {
 	width: 100%;
 }
-
-.portfolio-img {
-	display: flex;
-    align-items: center;
-}
-
 .about-me-info h2 {
 	font-size: 26px;
 	color: #252525;
@@ -624,21 +618,6 @@ label {
 }
 .service-icon {
 	float: left;
-}
-.skills-container {
-	display: flex;
-	justify-content: center;
-}
-/* .skills-icon {
-	height: 100px;
-	width: 100px;
-} */
-.devicon-skills{
-	height: 100px;
-	width: 100px;
-}
-.skill-icon-area > h5 {
-	text-align: center;
 }
 .service-icon span {
 	border-radius: 50%;
@@ -830,11 +809,8 @@ label {
 .portfolio-wrapper:hover .portfolio-thumb > img{transform: scale(1.2)}
 .portfolio-content {
     left: 0;
-	padding: 30px;
-	height: 100%;
-	position: absolute;
-	display: flex;
-	align-items: center;
+    padding: 30px;
+    position: absolute;
     right: 0;
     text-align: center;
     top: 50%;
@@ -850,16 +826,11 @@ label {
 }
 .portfolio-content > h3 {
 	color: #fff;
-    font-size: 20px;
-    justify-content: center;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    margin-bottom: 12px;
-    height: 2em;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 12px;
 }
-.portfolio-content > h3:hover{color: #E41919}
+.portfolio-content > h3 a:hover{color: #E41919}
 .portfolio-content span {
 	color: #ddd;
 	font-size: 14px;
@@ -1901,4 +1872,3 @@ width: 100%;}
 	font-size: 13px;
 	color: #565656;
 }
-
