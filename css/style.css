@@ -619,6 +619,12 @@ label {
 .service-icon {
 	float: left;
 }
+
+.devicon-skills {
+	width: 100px;
+	height: 100px;
+}
+
 .service-icon span {
 	border-radius: 50%;
 	color: #252525;
