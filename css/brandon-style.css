@@ -9,3 +9,10 @@
 .skill-icon-area > h5 {
 	text-align: center;
 }
+.skill-icon-area {
+	text-align: center;
+}
+
+.col-xs-6 {
+    width: 50%;
+}
