@@ -13,6 +13,6 @@
 	text-align: center;
 }
 
-/* .col-sm-6 {
-	max-width: 100%;
-} */
+.col-xs-6 {
+    width: 50%;
+}
