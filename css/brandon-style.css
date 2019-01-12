@@ -14,5 +14,5 @@
 }
 
 .col-xs-6 {
-    width: 50%;
+    max-width: 50%;
 }
