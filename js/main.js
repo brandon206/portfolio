@@ -217,6 +217,7 @@ $('.counter').counterUp({
 // portfolio active
 $('.portfolio-area').imagesLoaded(function () {
 	var grid = $('.grid').isotope({
+		filter: ".cat1",
 		itemSelector: '.grid-item',
 		percentPosition: true,
 		masonry: {
