@@ -17,6 +17,12 @@
 	text-indent: 20px;
 }
 
+.module-border-wrap {
+	position: relative;
+	background: linear-gradient(to left, #3EC8AC, #4E90A4);
+	padding: 5px;
+}
+
 /* .col-xs-6 {
     max-width: 50%;
 } */
