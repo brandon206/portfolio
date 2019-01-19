@@ -811,7 +811,6 @@ label {
 .portfolio-thumb > img {
     width: 100%;
 	transition: .3s;
-	max-height: 450px;
 }
 .portfolio-wrapper:hover .portfolio-thumb > img{transform: scale(1.2)}
 .portfolio-content {
