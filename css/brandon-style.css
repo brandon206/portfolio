@@ -13,6 +13,10 @@
 	text-align: center;
 }
 
+.view-project-content > p {
+	text-indent: 20px;
+}
+
 /* .col-xs-6 {
     max-width: 50%;
 } */
