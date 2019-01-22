@@ -19,13 +19,9 @@
 
 .module-border-wrap {
 	position: relative;
-	background: linear-gradient(to left, #3EC8AC, #4E90A4);
+	background: linear-gradient(to left, #bdbcbd, #485676);
 	padding: 5px;
 }
-
-/* .col-xs-6 {
-    max-width: 50%;
-} */
 
 @media (max-width: 576px){
 .col-xs-6 {
