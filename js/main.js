@@ -217,6 +217,7 @@ $('.counter').counterUp({
 // portfolio active
 $('.portfolio-area').imagesLoaded(function () {
 	var grid = $('.grid').isotope({
+		filter: ".cat1",
 		itemSelector: '.grid-item',
 		percentPosition: true,
 		masonry: {
@@ -259,20 +260,20 @@ $.scrollUp({
 	animation: 'fade', // Fade, slide, none
 	animationInSpeed: 200, // Animation in speed (ms)
 	animationOutSpeed: 200, // Animation out speed (ms)
-	scrollText: '<i class="ti-rocket"></i>', // Text for element
+	scrollText: '<i class="ti-arrow-circle-up"></i>', // Text for element
 	activeOverlay: false, // Set CSS color to display scrollUp active point, e.g '#00FFFF'
 });
 
 // WOW active
 new WOW().init();
 
-/*  youtube video */
-$('.youtube-bg').YTPlayer({
-	containment: '.youtube-bg',
-	autoPlay: true,
-	loop: true,
-	mute: true
-});
+// /*  youtube video */
+// $('.youtube-bg').YTPlayer({
+// 	containment: '.youtube-bg',
+// 	autoPlay: true,
+// 	loop: true,
+// 	mute: true
+// });
 
 // map
 function basicmap() {

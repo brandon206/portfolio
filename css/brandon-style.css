@@ -1,0 +1,33 @@
+.skills-container {
+	display: flex;
+	justify-content: center;
+}
+.skills-icon {
+	height: 100px;
+	width: 100px;
+}
+.skill-icon-area > h5 {
+	text-align: center;
+}
+.skill-icon-area {
+	text-align: center;
+}
+
+.view-project-content > p {
+	text-indent: 20px;
+}
+
+.module-border-wrap {
+	position: relative;
+	background: linear-gradient(to left, #bdbcbd, #485676);
+	padding: 5px;
+}
+
+@media (max-width: 576px){
+.col-xs-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+	}
+}

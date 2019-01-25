@@ -382,7 +382,7 @@ label {
 	text-transform: capitalize;
 }
 .hero {
-	height: 100%;
+	height: 100vh;
 	position: relative;
 	overflow: hidden;
 }
@@ -619,6 +619,12 @@ label {
 .service-icon {
 	float: left;
 }
+
+.devicon-skills {
+	width: 100px;
+	height: 100px;
+}
+
 .service-icon span {
 	border-radius: 50%;
 	color: #252525;
@@ -804,7 +810,7 @@ label {
 .portfolio-wrapper:hover .portfolio-thumb::before{opacity: .9;visibility: visible;}
 .portfolio-thumb > img {
     width: 100%;
-    transition: .3s;
+	transition: .3s;
 }
 .portfolio-wrapper:hover .portfolio-thumb > img{transform: scale(1.2)}
 .portfolio-content {
@@ -1872,4 +1878,3 @@ width: 100%;}
 	font-size: 13px;
 	color: #565656;
 }
-
