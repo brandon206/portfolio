@@ -880,14 +880,19 @@ label {
 }
 /* project modal */
 .modal-dialog {
-	max-width: 550px;
+    min-width: 650px;
 	margin: 1.75rem auto;
 	border-radius: 2px;
 }
 .modal-content {
 	border-radius: 2px;
 }
-.project-media{min-height:300px;background-size:cover;}
+.project-media{
+	max-height:550px;
+	min-height: 300px;
+	width: 100%;
+	background-size:cover;
+}
 .project-media img {
 	width: 100%;
 }
