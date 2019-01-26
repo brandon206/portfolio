@@ -297,7 +297,11 @@
 	}
 	.modal-dialog {
 		max-width: 100%;
+		min-width: auto;
 		padding: 0 25px;
+	}
+	.project-media {
+		min-height: 200px;
 	}
 	.hire-us h2 {
 		font-size: 31px;
