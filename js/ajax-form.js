@@ -23,6 +23,10 @@ $(function() {
 			$(formMessages).text('Please Input A Message.');
 		}
 
+		if($(formMessages).text().length > 0){
+			return;
+		}
+
 		// Serialize the form data.
 		var formData = $(form).serialize();
 
