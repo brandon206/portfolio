@@ -11,22 +11,6 @@ $(function() {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
 
-		// console.log($('input[name=name]')[0].val());
-
-		if($('input[name=name]').val() === ""){
-			$(formMessages).text('Please Input A Name.');
-		}
-		if($('input[name=subject]').val() === ""){
-			$(formMessages).text('Please Input A Subject.');
-		}
-		if($('textarea[name=message]').val() === ""){
-			$(formMessages).text('Please Input A Message.');
-		}
-
-		if($(formMessages).text().length > 0){
-			return;
-		}
-
 		// Serialize the form data.
 		var formData = $(form).serialize();
 
