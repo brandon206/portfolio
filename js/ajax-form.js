@@ -49,7 +49,11 @@ $(document).ready(function(){
 				}
 			});
 		}
-		document.querySelector('.submit-button').createAttribute('disabled');
+		var disabled_value = document.querySelector('.submit-button')
+		var disabled_boolean = document.createAttribute('disabled');
+		disabled_boolean.value = "true";
+		disabled_value.setAttributeNode(disabled_boolean);
+
 		return false;
 	});
 });
