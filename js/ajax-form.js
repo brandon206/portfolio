@@ -1,8 +1,5 @@
-$(document).ready(sendForm());
-
-$(sendForm function() {
-
-	// Get the form.
+$(document).ready(function(){
+    // Get the form.
 	var form = $('#contact-form');
 
 	// Get the messages div.
@@ -10,14 +7,15 @@ $(sendForm function() {
 
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
-		// Stop the browser from submitting the form.
-		e.preventDefault();
-
-		// Serialize the form data.
-		var formData = $(form).serialize();
-
-		// Submit the form using AJAX.
 		if(form_validate()) {
+
+			// Stop the browser from submitting the form.
+			e.preventDefault();
+
+			// Serialize the form data.
+			var formData = $(form).serialize();
+
+			// Submit the form using AJAX.
 			$.ajax({
 				type: 'POST',
 				url: $(form).attr('action'),
@@ -49,14 +47,13 @@ $(sendForm function() {
 		}
 		return false;
 	});
-
 });
 
 form_validate = function () {
 
         var name = document.forms["contact-form"]["name"].value;
         var email = document.forms["contact-form"]["email"].value;
-        var phone = document.forms["contact-form"]["subject"].value;
+        var subject = document.forms["contact-form"]["subject"].value;
         var message = document.forms["contact-form"]["message"].value;
 
         var validationAlert = document.getElementById("formValidationAlerts");
@@ -65,9 +62,10 @@ form_validate = function () {
 
         // Check if the fields full name, E-mail and message are filled.
         if ((name == null || name == "") ||
-            (email == null || email == "") ||
+			(email == null || email == "") ||
+			(subject == null || subject == "") ||
             (message == null || message == "")) {
-            validationAlert.innerHTML = "* Your Full Name, Your E-mail Address and Your Message are Required fields." +
+            validationAlert.innerHTML = "* Your Full Name, Your E-mail Address, Your Subject, and Your Message are Required fields." +
                 " Please fill all of them.";
             return false;
         }
