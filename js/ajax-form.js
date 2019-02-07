@@ -23,6 +23,9 @@ $(document).ready(function(){
 			})
 			.done(function(response) {
 				// Make sure that the formMessages div has the 'success' class.
+				validationAlert = document.getElementById("formValidationAlerts");
+				validationAlert.innerHTML = "";
+
 				$(formMessages).removeClass('error');
 				$(formMessages).addClass('success');
 
