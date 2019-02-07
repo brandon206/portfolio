@@ -1557,6 +1557,9 @@ width: 100%;}
 	padding: 0 25px;
 	border-radius: 0;
 }
+.contact-form-area {
+	background-color: #EEEEEE;
+}
 .contact-form form textarea {
 	border: 1px solid #ddd;
 	width: 100%;
