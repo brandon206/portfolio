@@ -8,6 +8,7 @@ $(document).ready(function(){
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		if(form_validate()) {
+			document.getElementByClassName('submit-button').removeAttribute('disabled');
 
 			// Stop the browser from submitting the form.
 			e.preventDefault();
@@ -48,6 +49,7 @@ $(document).ready(function(){
 				}
 			});
 		}
+		document.getElementByClassName('submit-button').createAttribute('disabled');
 		return false;
 	});
 });
