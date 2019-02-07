@@ -8,7 +8,7 @@ $(document).ready(function(){
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
 		if(form_validate()) {
-			document.getElementByClassName('submit-button').removeAttribute('disabled');
+			document.querySelector('.submit-button').removeAttribute('disabled');
 
 			// Stop the browser from submitting the form.
 			e.preventDefault();
@@ -49,7 +49,11 @@ $(document).ready(function(){
 				}
 			});
 		}
-		document.getElementByClassName('submit-button').createAttribute('disabled');
+		var disabled_value = document.querySelector('.submit-button')
+		var disabled_boolean = document.createAttribute('disabled');
+		disabled_boolean.value = "true";
+		disabled_value.setAttributeNode(disabled_boolean);
+
 		return false;
 	});
 });
