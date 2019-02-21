@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 	// Get the messages div.
 	var formMessages = $('.ajax-response');
+	formMessages.text('Loading...');
 
 	// Set up an event listener for the contact form.
 	$(form).submit(function(e) {
