@@ -17,6 +17,10 @@
 	text-indent: 20px;
 }
 
+.grid-item {
+	cursor: pointer;
+}
+
 .module-border-wrap {
 	position: relative;
 	background: linear-gradient(to left, #bdbcbd, #485676);
